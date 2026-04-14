@@ -15,6 +15,7 @@
         }
         .contract-text { color: #cbd5e1; line-height: 1.6; }
         .accent-text { color: #38bdf8; }
+        section { margin-bottom: 2rem; }
     </style>
 </head>
 <body class="min-h-screen">
@@ -55,61 +56,94 @@
                 </div>
             </div>
 
-            <div class="contract-text space-y-8">
+            <div class="contract-text space-y-6">
                 <p class="italic">
-                    This Service Agreement (“Agreement”) is entered into between T&J COMPUTER SERVICES, operating as T&J AI Services (“Service Provider”), and the undersigned client (“Client”).
+                    This Service Agreement (“Agreement”) is entered into between T&J COMPUTER SERVICES, operating as T&J AI Services (“Service Provider”), and the undersigned client (“Client”). This Agreement is governed by the laws of the Province of Ontario and the applicable federal laws of Canada.
                 </p>
 
                 <section>
                     <h2 class="text-xl font-bold text-white mb-3">1. Acceptance of Agreement</h2>
                     <p><strong>Acceptance by Payment:</strong> By making a payment through Stripe, clicking "I Agree," or accessing the Services, the Client acknowledges that they have read, understood, and agree to be bound by all terms and conditions set forth herein.</p>
-                    <p class="mt-2 text-sm italic underline text-slate-400">Legal Entity Disclosure: T&J AI Services is a trade name for the registered business T&J COMPUTER SERVICES.</p>
+                    <p class="mt-2 text-sm italic underline text-slate-400">Legal Entity Disclosure: The Client acknowledges that T&J AI Services is a trade name for the registered business T&J COMPUTER SERVICES. All legal obligations and payments are tied to the legal entity T&J COMPUTER SERVICES.</p>
                 </section>
 
                 <section>
                     <h2 class="text-xl font-bold text-white mb-3">2. Definitions</h2>
                     <ul class="list-disc pl-5 space-y-2">
-                        <li><strong>Services:</strong> The AI receptionist, call-handling system, automations, and related software tools.</li>
-                        <li><strong>Client Data:</strong> Any information submitted or processed through the Services.</li>
-                        <li><strong>Force Majeure:</strong> Events beyond reasonable control (natural disasters, outages, etc.).</li>
+                        <li><strong>Services:</strong> The AI receptionist, call-handling system, automations, integrations, and related software tools provided by T&J AI Services.</li>
+                        <li><strong>Client Data:</strong> Any information submitted, transmitted, or processed through the Services on behalf of the Client.</li>
+                        <li><strong>Confidential Information:</strong> Any non-public business, technical, pricing, operational, or proprietary information disclosed by either party.</li>
+                        <li><strong>Force Majeure Event:</strong> Any event beyond a party’s reasonable control, including natural disasters, power failures, labour disputes, internet outages, or third-party platform failures.</li>
                     </ul>
                 </section>
 
                 <section class="grid md:grid-cols-2 gap-6 bg-white/5 p-6 rounded-lg border border-white/5">
                     <div>
-                        <h2 class="text-xl font-bold text-white mb-3">3. Trial & Fees</h2>
-                        <p><strong>Initial Trial:</strong> 3 months at a flat rate of <span class="text-white font-bold">$1,000.00</span>.</p>
-                        <p><strong>Standard Fee:</strong> Adjusts to <span class="text-white font-bold">$1,250.00/month</span> after trial.</p>
+                        <h2 class="text-xl font-bold text-white mb-3">3. Trial Period & Fees</h2>
+                        <p><strong>Initial Trial:</strong> Three (3) months at a flat rate of <span class="text-white font-bold">$1,000.00/month</span>.</p>
+                        <p><strong>Standard Fee:</strong> Automatically adjusts to <span class="text-white font-bold">$1,250.00/month</span> after the trial.</p>
+                        <p class="text-xs mt-2 text-slate-400 font-light">The Client authorizes T&J AI Services to automatically update the recurring billing in Stripe.</p>
                     </div>
                     <div>
-                        <h2 class="text-xl font-bold text-white mb-3">9. Term</h2>
-                        <p><strong>Minimum Term:</strong> One (1) year.</p>
-                        <p><strong>Early Termination:</strong> 50% of remaining contract value due immediately.</p>
+                        <h2 class="text-xl font-bold text-white mb-3">9. Term & Termination</h2>
+                        <p><strong>Minimum Term:</strong> One (1) year (inclusive of trial).</p>
+                        <p><strong>Early Termination:</strong> If terminated before the minimum term, the Client must pay <span class="text-white font-bold">50% of the remaining contract value</span>.</p>
                     </div>
                 </section>
 
                 <section>
                     <h2 class="text-xl font-bold text-white mb-3">4. Privacy & Data Protection</h2>
-                    <p>T&J AI Services shall not sell or lease Client Data. Data is shared with sub-processors (OpenAI, ElevenLabs, Stripe) strictly for functional necessity. The Client retains all ownership of Client Data.</p>
+                    <p><strong>Non-Disclosure:</strong> T&J AI Services shall not sell, lease, or disclose Client Data to third parties for marketing use. Data is shared with sub-processors (e.g., Stripe, OpenAI, ElevenLabs) strictly for functional necessity. The Client retains all rights and ownership of Client Data.</p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-white mb-3">6. Compliance & Law</h2>
-                    <p>Client is responsible for compliance with <strong>PIPEDA, CASL</strong>, and Canadian call recording consent requirements. Canada is a one-party consent jurisdiction, but industry-specific disclosures are the Client's responsibility.</p>
+                    <h2 class="text-xl font-bold text-white mb-3">6. Compliance With Canadian Law</h2>
+                    <p>The Client is solely responsible for ensuring use complies with <strong>PIPEDA, CASL</strong>, and the <strong>Criminal Code of Canada</strong>. While Canada is a one-party consent jurisdiction, the Client is responsible for determining if additional disclosure is required for their specific industry.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-bold text-white mb-3">7. Third-Party Services</h2>
+                    <p>Services rely on providers like <strong>Retell, Twilio, Cal.com, and ElevenLabs</strong>. The Client agrees to their acceptable use policies. T&J AI Services is not liable for third-party outages, API changes, or pricing adjustments.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-bold text-white mb-3">8. Payment & Suspension</h2>
+                    <p>Invoices are issued five (5) days before the cycle. Payment is due on the first day. If payment is late by more than <strong>72 hours</strong>, services may be suspended or terminated immediately.</p>
                 </section>
 
                 <section>
                     <h2 class="text-xl font-bold text-white mb-3">10. AI Accuracy & Liability</h2>
                     <blockquote class="border-l-4 border-sky-500 pl-4 py-2 bg-sky-500/5 text-sm">
-                        "The Client acknowledges that AI may occasionally produce inaccurate or 'hallucinated' information. T&J AI Services is not liable for misinformation provided by the AI."
+                        "The Client acknowledges that AI may occasionally produce inaccurate or 'hallucinated' information. T&J AI Services is not liable for misinformation provided by the AI to third parties."
                     </blockquote>
                     <p class="mt-4"><strong>Liability Cap:</strong> Total liability shall not exceed the total fees paid by the Client in the preceding three (3) months.</p>
                 </section>
 
-                <section class="pt-8 border-t border-white/10">
+                <section>
                     <h2 class="text-xl font-bold text-white mb-3">13. Dispute Resolution</h2>
-                    <p>Parties agree to attempt good-faith mediation in **Ontario**. If unresolved within 30 days, disputes proceed to binding arbitration under the ADR Institute of Ontario.</p>
+                    <p>Parties agree to attempt good-faith mediation in <strong>Ontario</strong>. If unresolved within 30 days, disputes proceed to binding arbitration under the <strong>ADR Institute of Ontario</strong>. Proceedings may be conducted virtually.</p>
+                </section>
 
+                <section class="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/10 text-sm">
+                    <div>
+                        <h3 class="font-bold text-white mb-2 text-base">14. Non-Solicitation</h3>
+                        <p>Client agrees not to solicit or hire T&J employees or contractors during the agreement and for 12 months after.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-2 text-base">15. Entire Agreement</h3>
+                        <p>This constitutes the entire agreement and supersedes all prior discussions. Amendments must be in writing.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="mt-12 p-8 bg-sky-600/10 rounded-xl border border-sky-500/30 text-center">
+                <h3 class="text-2xl font-bold mb-2 text-white">Ready to Begin?</h3>
+                <p class="text-slate-300 mb-6">By proceeding to payment, you acknowledge you have read, understood, and have the authority to legally execute this agreement.</p>
+                <a href="https://buy.stripe.com/7sY14o5vJ33G8Ov5prdMI00" class="inline-block">
+                    <button class="bg-sky-500 hover:bg-sky-400 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-sky-500/20">
+                        Accept & Proceed to Stripe
+                    </button>
+                </a>
             </div>
         </div>
     </main>
